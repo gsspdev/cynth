@@ -13,15 +13,15 @@ int main() {
     synth_t synth;
 
     // get user input
-    printf("Pick an oscillator type: "); // oscillator
+    printf("Pick an oscillator type: "); // OSCILLATOR
     fgets(synth.osc, sizeof(synth.osc), stdin);
-    printf("Pick a filter type: "); // filter
+    printf("Pick a filter type: "); // FILTER
     fgets(synth.filtype, sizeof(synth.filtype), stdin);
-    printf("Pick a filter slope: "); // slope
+    printf("Pick a filter slope: "); // SLOPE
     fgets(synth.filslope, sizeof(synth.filslope), stdin);
-    printf("Pick a modulator source: "); // modulator
+    printf("Pick a modulator source: "); // MODULATOR
     fgets(synth.mod, sizeof(synth.mod), stdin);
-    printf("Pick an effect type:"); //effect
+    printf("Pick an effect type:"); //EFFECT
     fgets(synth.effect, sizeof(synth.effect), stdin);
 
     // output user input
